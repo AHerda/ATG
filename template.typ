@@ -113,9 +113,9 @@
   #align(right)[#sym.qed]
 ]
 
-#let gcell(a,b) = box(width: 2.5cm, height: 1.7cm,{
-  place(bottom + left, dx: 3pt, dy: -5pt, [#a]);
-  place(top + right, dx:-3pt, dy: 5pt, [#b]);
+#let gcell(a, b) = box(width: 4em, height: 2em, {
+  place(bottom + left, dx: 4pt, dy: -4pt, [#a]);
+  place(top + right, dx:-4pt, dy: 2pt, [#b]);
   line(start: (0%,0%), end: (100%, 100%))
 });
 
